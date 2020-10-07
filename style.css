@@ -1,0 +1,32 @@
+/*Tableau */
+table{
+	border-collapse: collapse;
+	border-spacing: 0;	
+}
+
+
+td{
+	text-align: center;
+	border-bottom: solid black 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+th{
+	border-bottom: solid black 1px;
+}
+div {
+    display: block;
+}
+.container {
+		
+    max-width: 80%;
+    margin: 0 ;
+    padding: 25px;
+    background-color: white;
+
+}
+.membre{
+    width: 100%;
+    font-size: .875rem;
+    border: none;
+}
