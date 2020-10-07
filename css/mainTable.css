@@ -30,3 +30,7 @@ div {
     font-size: .875rem;
     border: none;
 }
+h2{
+    display: flex;
+    text-align: center;
+}
