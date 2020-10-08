@@ -43,5 +43,6 @@ th{
 h2{
     display: flex;
     justify-content: center;
-  
+    background-color: lightblue ;
+    text-align: center;
 }
