@@ -1,12 +1,35 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 footer{
     background-color: black;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    height: 100px;
     width: 100%;
     color: rgb(255, 255, 255);
-    position: fixed;
+    position: fixed; 
     bottom: 0;
     margin-top: 50px;
+    text-align: center;
+}
+
+footer p {
+    padding: 2%;
+}
+
+@keyframes RotationL {
+    0% {transform: rotate(0turn);}
+    100% {transform: rotate(1turn);}
+}
+
+footer img {
+    width: 13%;
+    padding: 2%;    
+}
+
+footer img:hover {
+    animation: RotationL 2s infinite;
 }
