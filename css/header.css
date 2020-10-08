@@ -3,17 +3,14 @@
 header {
     margin: auto;
     height: 150px;
-    width: 100%;
-    background-color:whitesmoke;   
-    
+    width: 100%;   
+    background-color:  white;
 }
-header .img{
-    display: flex;
-    justify-content: center;
-}
+
 header img{
     height: 150px;
-    
+    margin: auto; 
+    display: block;
 }
 
 header div {
@@ -25,8 +22,7 @@ nav {
     margin: auto;
     height: 100px;
     width:100%;
-    background-color:rgb(48, 48, 48);;
-
+    background-color:rgb(48, 48, 48);
 }
 
 nav ul {
@@ -46,9 +42,9 @@ nav a {
     justify-content: space-between;
     align-content: center;
     text-decoration: none;
-    color: white;
+    color:  rgb(240, 160, 128);
 }
+
 .shadow {
 font-size: 1.5em;
-
 }

@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    background-color: whitesmoke;
 }
 
 @font-face{
@@ -10,19 +9,20 @@
     src : url('font/robotoRegular.ttf') format('truetype'); 
 }
 
-h1, h2, h3, h4, p, td, th{
+h1, h2, h3, h4, p, td, th, a{
     font-family: 'Roboto';
 }
 
 h2{
     display: flex;
     justify-content: center;
-    background-color: lightblue ;
+    background-color: #303030 ;
     text-align: center;
     font-size: 2em;
     margin: 20px 0;
     width: 100%;
     padding: 5px 0;
+    color: white;
 }
 
 h4{
@@ -32,4 +32,8 @@ h4{
     width: 20%;
     margin: 0 auto 15px;
     font-size: 1.5em;
+}
+
+body{
+    background-color: whitesmoke;
 }
