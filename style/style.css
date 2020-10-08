@@ -1,0 +1,58 @@
+/*header*/
+
+header {
+    margin: auto;
+    height: 150px;
+    width: 100%;
+    background-color:whitesmoke;   
+    
+}
+header .img{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 150px;
+    
+}
+
+header div {
+    justify-content:center;
+}
+
+/*nav*/
+nav {
+    margin: auto;
+    height: 100px;
+    width:100%;
+    background-color:rgb(48, 48, 48);;
+
+}
+
+
+ 
+
+
+nav ul {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav a {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: space-between;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+}
+.shadow {
+font-size: 1.5em;
+
+}
