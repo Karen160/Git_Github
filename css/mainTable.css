@@ -1,0 +1,48 @@
+/*Tableau */
+table{
+	border-collapse: collapse;
+    border-spacing: 0;	
+}
+
+
+td{
+	text-align: center;
+	border-bottom: solid black 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+th{
+	border-bottom: solid black 1px;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 ;
+    padding: 25px;
+    background-color: white;
+    align-items: center;
+    flex-flow: column ;
+   
+
+}
+.membre{
+    width: 100%;
+    font-size: .875rem;
+    border: none;
+    
+}
+.titre{
+    width: 100%;
+}
+.titre h1{
+    background-color: lightblue ;
+    text-align: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue ;
+    text-align: center;
+}
