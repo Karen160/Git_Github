@@ -36,13 +36,15 @@ th{
     width: 100%;
 }
 .titre h1{
-    background-color: lightblue ;
+    background-color: #303030;
     text-align: center;
+    color: white;
 }
 
 h2{
     display: flex;
     justify-content: center;
-    background-color: lightblue ;
+    background-color: #303030 ;
     text-align: center;
+    color: white;
 }
