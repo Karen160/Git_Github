@@ -1,0 +1,9 @@
+[projet] p{
+    text-align: center;
+    padding: 0 20px;
+}
+
+[projet] img{
+    margin: auto;
+    display: block;
+}

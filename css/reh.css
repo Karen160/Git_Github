@@ -15,8 +15,8 @@
     bottom: 30px;
     cursor: pointer;
     z-index: 20;
-    background: turquoise;
-    opacity: 0.2;
+    background:  rgb(240, 160, 128);
+    opacity: 0.5;
 }
 .boutonREH:hover {
     opacity: 1;
