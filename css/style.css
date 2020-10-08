@@ -1,0 +1,8 @@
+/* IMPORT DE TOUS LES STYLES */
+
+@import "base.css";
+@import "header.css";
+@import "reh.css";
+@import "mainTable.css";
+@import "mainProjet.css";
+@import "footer.css";
