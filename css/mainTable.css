@@ -1,7 +1,7 @@
 /*Tableau */
 table{
 	border-collapse: collapse;
-	border-spacing: 0;	
+    border-spacing: 0;	
 }
 
 
@@ -14,23 +14,34 @@ td{
 th{
 	border-bottom: solid black 1px;
 }
-div {
-    display: block;
-}
+
 .container {
-		
-    max-width: 80%;
+    display: flex;
+    max-width: 100%;
     margin: 0 ;
     padding: 25px;
     background-color: white;
+    align-items: center;
+    flex-flow: column ;
+   
 
 }
 .membre{
     width: 100%;
     font-size: .875rem;
     border: none;
+    
 }
+.titre{
+    width: 100%;
+}
+.titre h1{
+    background-color: lightblue ;
+    text-align: center;
+}
+
 h2{
     display: flex;
-    text-align: center;
+    justify-content: center;
+  
 }
