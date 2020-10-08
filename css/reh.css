@@ -1,0 +1,31 @@
+
+
+/*Bouton retour en Haut*/
+
+
+.boutonREH {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 20;
+    background: turquoise;
+    opacity: 0.2;
+}
+.boutonREH:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.fa-arrow-up {
+    font-size: 40px;
+    color: white;
+}
+
+/*Fin Bouton retour en Haut*/
