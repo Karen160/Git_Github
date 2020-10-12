@@ -42,7 +42,11 @@ nav a {
     justify-content: space-between;
     align-content: center;
     text-decoration: none;
-    color:  rgb(240, 160, 128);
+    color:  #f8b576;
+}
+
+nav a:hover{
+    color: white;
 }
 
 .shadow {
